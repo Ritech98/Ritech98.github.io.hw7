@@ -24,7 +24,7 @@
             ><span class="header__logo--blue">Web</span>Studio</a
           >
 
-          <ul class="nav list">
+          <ul class="nav__list list">
             <li class="nav__item">
               <a
                 href="index.html"
@@ -526,47 +526,47 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
-          <svg class="ml" width="11" height="11">
+          <svg class="modal__icon" width="11" height="11">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <form class="form">
-          <span class="form-title">Zostaw swoje dane w formularzu poniżej</span>
-          <div class="form-field top-title">
-            <label class="form-label" for="name">Imie</label>
+          <span class="form__title">Zostaw swoje dane w formularzu poniżej</span>
+          <div class="form__field top-title">
+            <label class="form__label" for="name">Imie</label>
             <input
-              class="form-input"
+              class="form__input"
               type="text"
               name="name"
               id="name"
               required
             />
-            <svg class="input-icon" width="12" height="12">
+            <svg class="input__icon" width="12" height="12">
               <use href="./images/icons.svg#icon-name"></use>
             </svg>
           </div>
-          <div class="form-field">
-            <label class="form-label" for="tel">Telefon</label>
-            <input class="form-input" type="tel" name="tel" id="tel" required />
-            <svg class="input-icon" width="12" height="12">
+          <div class="form__field">
+            <label class="form__label" for="tel">Telefon</label>
+            <input class="form__input" type="tel" name="tel" id="tel" required />
+            <svg class="input__icon" width="12" height="12">
               <use href="./images/icons.svg#icon-tel"></use>
             </svg>
           </div>
-          <div class="form-field">
-            <label class="form-label" for="email">Email</label>
+          <div class="form__field">
+            <label class="form__label" for="email">Email</label>
             <input
-              class="form-input"
+              class="form__input"
               type="email"
               name="email"
               id="email"
               required
             />
-            <svg class="input-icon" width="12" height="12">
+            <svg class="input__icon" width="12" height="12">
               <use href="./images/icons.svg#icon-mail"></use>
             </svg>
           </div>
-          <div class="form-field">
-            <label class="comment-label" for="comment">Komentarz</label>
+          <div class="form__field">
+            <label class="comment__label" for="comment">Komentarz</label>
             <textarea
               class="comment"
               name="comment"
@@ -576,23 +576,23 @@
               required
             ></textarea>
           </div>
-          <div class="form-field-check">
-            <label class="policy-label" for="policy">
+          <div class="form__field__check">
+            <label class="policy__label" for="policy">
               <input
-                class="form-checkbox"
+                class="form__checkbox"
                 type="checkbox"
                 name="policy"
                 id="policy"
                 required
               />
-              <span class="icon-check"></span>
+              <span class="icon__check"></span>
               Oświadczam iż akceptuję
-              <a class="policy-link" href="">Regulamin</a
+              <a class="policy__link" href="">Regulamin</a
               ><span class="conj"> i</span
-              ><a class="policy-link" href="">Politykę prywatności</a>
+              ><a class="policy__link" href="">Politykę prywatności</a>
             </label>
           </div>
-          <button class="submit-btn" type="submit">Wyślij</button>
+          <button class="submit__btn" type="submit">Wyślij</button>
         </form>
       </div>
     </div>
